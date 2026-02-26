@@ -1,0 +1,36 @@
+# Streamlit Configuration for CineMatch Movie Recommender
+
+[theme]
+# Theme colors - matching the dark aesthetic of the application
+primaryColor = "#7C3AED"                # Purple accent color
+backgroundColor = "#08080F"              # Dark background
+secondaryBackgroundColor = "#100E1A"    # Slightly lighter dark background
+textColor = "#E8E4DC"                   # Light text color
+font = "sans serif"
+
+[client]
+# Client-side settings
+showErrorDetails = true
+toolbarMode = "viewer"
+
+[logger]
+# Logging configuration
+level = "info"
+messageFormat = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+[server]
+# Server settings
+port = 8501
+headless = false
+runOnSave = true
+maxUploadSize = 200  # Maximum upload size in MB
+
+# Performance settings
+[runner]
+magicEnabled = true
+fastReruns = true
+
+# Browser settings
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
