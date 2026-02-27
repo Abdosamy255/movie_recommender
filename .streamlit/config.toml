@@ -21,7 +21,7 @@ messageFormat = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 [server]
 # Server settings
 port = 8501
-headless = false
+headless = true
 runOnSave = true
 maxUploadSize = 200  # Maximum upload size in MB
 
